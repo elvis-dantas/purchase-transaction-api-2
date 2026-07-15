@@ -8,6 +8,7 @@ import java.time.LocalDateTime;
 
 /**
  * Entity purchase
+ * Used to map database table
  */
 @Table("purchases")
 public record Purchase(
