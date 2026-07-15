@@ -6,6 +6,10 @@ import org.springframework.data.relational.core.mapping.Table;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
+/**
+ * Entity purchase
+ * Used to map database table
+ */
 @Table("purchases")
 public record Purchase(
         @Id
